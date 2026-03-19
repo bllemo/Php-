@@ -1,0 +1,22 @@
+{
+  "name": "bllemo/pop-it-mvc",
+  "description": "Simple mvc framework",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "bllemo",
+      "email": "podkovskij.maks1@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\": "core/Src/",
+      "": "app/"
+    }
+  }
+}
